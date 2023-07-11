@@ -5,11 +5,12 @@
 
 header {
     background: rgba(229, 84, 115, 0.10);
-height: 100vh;
-padding: 0px 0px 100px 0px;
+    height: auto;
+    width: auto;
+
 }
 
-.header-con {
+.bannar-container {
     padding-top: 10px;
     width: 100%;
     display: flex;
@@ -49,7 +50,7 @@ padding: 0px 0px 100px 0px;
 }
 
 .header-img {
-    height: 573px;
+    height: 608px;
 
 
 }
@@ -182,32 +183,43 @@ padding: 0px 0px 100px 0px;
 
 .birthday-images {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 30px 0px;
     margin: 15px px;
-    background-color: ghostwhite;
+    gap: 15px;
+    width: auto;
 }
 
 .birthday-image-one {
-    width: 250px;
-    height: 250px;
-    margin-left: 200px;
+    width: 220px;
+    height: 270px;
+    background-color: rgb(6, 251, 251);
+    border-radius: 5px;
+
 }
 
 .birthday-image-two {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 270px;
+    background-color: rgb(7, 254, 172);
+    border-radius: 5px;
+
 }
 
 .birthday-image-three {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 270px;
+    background-color: rgb(10, 241, 249);
+    border-radius: 5px;
+
 }
 
 .birthday-image-four {
-    width: 250px;
-    height: 250px;
-    margin-right: 200px;
+    width: 220px;
+    height: 270px;
+    background-color: rgb(140, 245, 249);
+    border-radius: 5px;
+
 }
 
 .info-section {
@@ -429,6 +441,7 @@ padding: 0px 0px 100px 0px;
     background: #111010;
     height: 250px;
     margin-top: 50px;
+    margin-bottom: 15px;
 }
 
 .footer-title {
@@ -450,12 +463,13 @@ padding: 0px 0px 100px 0px;
     line-height: normal;
 }
 
-.footer-details {
+.address {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
+
 }
 
 .copyright-part {
